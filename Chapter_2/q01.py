@@ -3,7 +3,7 @@
 Name = input("Enter your name: ")
 Address = input("Enter your address, with city, state and ZIP: ")
 Phone = input("Enter your phone number: ")
-col_major = input("Enter your college major: ")
+Col_major = input("Enter your college major: ")
 
 
 
@@ -14,4 +14,5 @@ print("\nYour information is below: ")
 print("\nYour name:", Name)
 print("Your address is:", Address)
 print("Your phone number is:", Phone)
-print("Your major is:", col_major)
+print("Your major is:", Col_major)
+
