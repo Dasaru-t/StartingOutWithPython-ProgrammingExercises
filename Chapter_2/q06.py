@@ -11,6 +11,7 @@ total_amount = amount + total_tax
 #string '.2f', is the format specifier, .2 specifies the precision and f specifies that the data type of the number we are formatting (float).
 #\n - Causes output to be advanced to the next line.
 #sep='' - #if you don't want a space printed between the items
+
 print('\nPurchse amount: $ ', format(amount, ',.2f'),sep='')
 print('State tax: $ ', format(state_tax, ',.2f'),sep='')
 print('Country tax: $ ', format(country_tax, ',.2f'),sep='')
