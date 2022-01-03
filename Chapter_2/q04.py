@@ -7,7 +7,7 @@ item4 = float(input('Enter item 4 price: '))
 item5 = float(input('Enter item 5 price: '))
 
 sub_total = item1 + item2 +item3 + item4 + item5
-# 7% equal to 0.7 (7/100 = 0.23)
+# 7% equal to 0.07 (7/100 = 0.07)
 tax = sub_total * 0.07
 total = sub_total + tax
 
