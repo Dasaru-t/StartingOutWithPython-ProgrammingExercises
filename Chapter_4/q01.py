@@ -9,3 +9,4 @@ for day in ['Monday','Tuesday','Wednsday','Thursday','Friday']:
   total += bugs   #Augmented assignment operators. equal to (total = total + bugs)
 
 print('\nTotal number of bugs collected: ',total)
+
