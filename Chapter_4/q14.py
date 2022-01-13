@@ -7,8 +7,9 @@
 #    #
 #     #
 
-
-for row in range(6):
-  for col in range(1):
-    print("#"," "*row,end = "") #every line start with #
+base = 6
+for row in range(base):
+  print("#",end="") #every line start with #
+  for col in range(row):
+    print(" ",end = "") 
   print("#")    # every line finish with #
