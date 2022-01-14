@@ -8,7 +8,6 @@ total = 0   # Initialize an accumulator variable.
 
 for y in range(years):
   for m in range(months):
-    #print("Inches of rainfall for year",(y + 1),"month",(m + 1))
     rainfall = float(input("Inches of rainfall for year "+str(y + 1)+" month "+str(m + 1)+" : ")) #ask for the inches of rainfall for that month.
     total += rainfall #calculating running total
   print()
