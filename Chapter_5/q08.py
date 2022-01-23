@@ -9,7 +9,7 @@ def main():
   #Get values
   wall_space, paint_price = get_values()
 
-  #Calculate number of gallons of cost of the paint
+  #Calculate number of gallons & cost of the paint
   gallons_of_paint, paint_cost = paint_calc(wall_space, paint_price)
 
   #Calculate hours of labor required & The labor charges
