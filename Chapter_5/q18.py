@@ -2,12 +2,13 @@
 
 def main():
 
+  #display header
   print("A prime number is a number that is") 
   print("only evenly divisible by itself and 1\n")
   print("The prime numbers from 1 to 100 are listed below.")
 
-  #display results
-  for number in range(1,101):
+  #pass all numbers from 1 to 100
+  for number in range(2,101):
     if is_prime(number):
       print(number)
 
