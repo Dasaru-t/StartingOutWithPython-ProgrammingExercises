@@ -1,6 +1,9 @@
 # 17. Prime Numbers
 
 def main():
+
+  print("A prime number is a number that is") 
+  print("only evenly divisible by itself and 1\n")
   #get value
   number = int(input("Enter a number: "))
 
@@ -15,14 +18,14 @@ def main():
 def is_prime(number):
   
   #determine whether number is prime or not
+  status = True
   for n in range(2,number):
     if number % n == 0:
-      status = False
-    else:
-      status = True
-
+        print(number,"can be divided by",n)
+        status = False 
+      
     # Returning Boolean Value
-    return status
+  return status
 
 # Call the main function.
 main()
