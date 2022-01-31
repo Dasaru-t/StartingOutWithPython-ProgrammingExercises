@@ -25,6 +25,7 @@ def main():
 
   # Read the rest of the file.
   while descr != '':
+      
     # Read the quantity field.
     qty = float(coffee_file.readline())
 
