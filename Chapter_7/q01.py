@@ -12,7 +12,7 @@ def main():
   # Create a variable to use as an accumulator.
   total = 0.0
 
-  # Get sales for each day49.
+  # Get sales for each day.
   for day in range(WEEKDAYS):
     print('Enter a store’s sales for day #', day + 1,': ',sep='',end='')
     sales[day] = float(input())
