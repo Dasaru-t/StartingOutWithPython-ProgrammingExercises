@@ -5,7 +5,7 @@
 
 def main():
 
-  # get the file name
+  # Get the file name
   file_name = input("Enter the file name: ")
 
   # Open the user file for reading
@@ -17,10 +17,10 @@ def main():
   # Read the first 5 lines from the file
   for line in user_file:
     
-    #strip the newline from the field
+    # Strip the newline from the field
     line = line.rstrip("\n")
 
-    # increase the line numbering by 1
+    # Increase the line numbering by 1
     number += 1
 
     # Display line number with colon
