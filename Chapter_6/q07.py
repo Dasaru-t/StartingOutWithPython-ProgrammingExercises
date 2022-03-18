@@ -10,7 +10,7 @@ def main():
   # Open the random_number.txt file for writing
   random_number_file = open("random_number.txt","w")
 
-  # Generate 500 random numbers & write it to the file
+  # Generate 500 random numbers and write it to the file
   for i in range(count):
     random_number = random.randint(1,500)
     random_number_file.write(str(random_number) + "\n")
