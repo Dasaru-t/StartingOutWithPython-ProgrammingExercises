@@ -1,5 +1,7 @@
 # 7. Random Number File Writer
 
+# This program writes a series of random numbers to a file.
+
 import random
 
 def main():
