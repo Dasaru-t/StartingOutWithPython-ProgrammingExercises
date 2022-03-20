@@ -1,5 +1,8 @@
 # 8. Random Number File Reader
 
+# This program display all of the numbers 
+# stored in the file and calculates their total & number count.
+
 def main():
 
   # Open the random_numbers_file for reading
