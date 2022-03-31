@@ -28,6 +28,7 @@ def file_open():
     girlnames[index] = girlnames[index].rstrip('\n')
     index += 1
 
+  # Returning values
   return boynames, girlnames
 
 
