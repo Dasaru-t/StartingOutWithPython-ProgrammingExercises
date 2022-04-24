@@ -8,7 +8,7 @@
 def main():
   
   # Get user input as a sentence
-  sentence = input("Enter a sentence in English: ")
+  sentence = input("Enter a sentence in English: ").upper()
 
   # Split the string
   mylist = sentence.split()
@@ -28,5 +28,6 @@ def main():
 
   # Concatenate list in to a single string  
   print("Pig Latin:"," ".join(mystring))
-  
+
+# Call the main function  
 main()
