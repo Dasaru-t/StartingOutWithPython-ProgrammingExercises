@@ -1,4 +1,5 @@
 # 4. Morse Code Converter
+# This program converts string to morse
 
 def main():
   
