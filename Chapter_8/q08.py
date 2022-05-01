@@ -3,6 +3,7 @@
 def main():
     
   # Get user input as a sentence
+
   string = input("Enter a sentence: ")
 
   # Split the sentence by ". "
@@ -12,5 +13,8 @@ def main():
     # first character of each sentence capitalized
     print(i[0].upper(),i[1:],sep="",end=". ")
 
-# Call the main function    
+    
+    
+# Call the main function   
+
 main()
