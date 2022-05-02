@@ -11,6 +11,6 @@ def main():
   for i in string_split:
     # first character of each sentence capitalized
     print(i[0].upper(),i[1:],sep="",end=". ")
-   
+
 # Call the main function   
 main()
