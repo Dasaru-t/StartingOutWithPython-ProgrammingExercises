@@ -17,6 +17,7 @@ def main():
 def create_deck():
   # Create a dictionary with each card and its value
   # stored as key-value pairs.
+
   deck={"Ace of Spades": 1, "2 of Spades": 2, "3 of Spades": 3,
           "4 of Spades": 4, "5 of Spades": 5, "6 of Spades": 6,    
           '7 of Spades':7, '8 of Spades':8, '9 of Spades':9,
@@ -48,6 +49,7 @@ def create_deck():
 # from the deck.
 
 def deal_cards(deck,number):
+
     # Initialize an accumulator for the hand value.
     hand_value=0
     
@@ -65,5 +67,5 @@ def deal_cards(deck,number):
     # Display the value of the hand.
     print("Value of this hand:", hand_value) 
     
-# call the main function
+# Call the main function
 main()
