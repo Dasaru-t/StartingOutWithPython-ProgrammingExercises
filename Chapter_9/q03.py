@@ -13,7 +13,7 @@ def main():
   infile = open("in_text.txt","r")
 
   # Read the lines.
-  lines = infile.readline()
+  lines = infile.readlines()
   
   # Close the file.
   infile.close()
@@ -22,11 +22,13 @@ def main():
   
   print("Text file content: ")
 
-  for i in lines:
-    # Display text file content
-    print(i,end='')
-    # Write encrypted content to the file 
-    outfile.write(str(encrypt[i]))
+  # For each sentence
+  for line in lines:
+    # For each character
+    for ch in line:
+      print(ch,end='')
+      # Write encrypted content to the file 
+      outfile.write(str(encrypt[ch]))
     
   print()
   
