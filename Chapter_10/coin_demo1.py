@@ -1,5 +1,3 @@
-# Coin class, not a complete program
-
 import random
 
 # The Coin class simulates a coin that can
