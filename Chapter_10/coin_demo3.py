@@ -4,7 +4,6 @@ import random
 
 # The Coin class simulates a coin that can
 # be flipped.
-
 class Coin:
 
   # The _ _init_ _ method initializes the
@@ -29,7 +28,6 @@ class Coin:
 
   def get_sideup(self):
     return self.__sideup
-
 
 # The main function.
 def main():
