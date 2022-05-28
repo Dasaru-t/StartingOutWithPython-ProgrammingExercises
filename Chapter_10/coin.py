@@ -6,7 +6,7 @@ import random
 # The Coin class simulates a coin that can
 # be flipped.
 
-class coin:
+class Coin:
 
   # The _ _init_ _ method initializes the
   # _ _sideup data attribute with 'Heads'.
