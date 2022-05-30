@@ -1,0 +1,1 @@
+# The BankAccount class simulates a bank account.
