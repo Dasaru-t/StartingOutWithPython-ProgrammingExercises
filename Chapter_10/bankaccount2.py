@@ -7,3 +7,6 @@
 
 # The deposit method makes a deposit into the
 # account.
+
+# The withdraw method withdraws an amount
+# from the account.
