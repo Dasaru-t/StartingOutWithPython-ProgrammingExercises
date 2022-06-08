@@ -10,3 +10,6 @@
 
 # The withdraw method withdraws an amount
 # from the account.
+
+# The get_balance method returns the
+# account balance.
