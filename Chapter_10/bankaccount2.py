@@ -27,3 +27,12 @@ class BankAccount:
 
     # The get_balance method returns the
     # account balance.
+
+    def get_balance(self):
+        return self.__balance
+
+    # The _ _str_ _ method returns a string
+    # indicating the object's state.
+
+    def __str__(self):
+        return 'The balance is $'+ format(self.__balance,',.2f')
