@@ -15,3 +15,13 @@ def main():
     print(coin2.get_sideup())
     print(coin3.get_sideup())
     print()
+
+    # Toss the coin.
+    print('I am tossing all three coins . . .')
+    print()
+    coin1.toss()
+    coin2.toss()
+    coin3.toss()
+
+    # Display the side of each coin that is facing up.
+    
