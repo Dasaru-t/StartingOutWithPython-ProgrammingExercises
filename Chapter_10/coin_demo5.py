@@ -24,4 +24,11 @@ def main():
     coin3.toss()
 
     # Display the side of each coin that is facing up.
-    
+    print('Now here are the sides that are up:')
+    print(coin1.get_sideup())
+    print(coin2.get_sideup())
+    print(coin3.get_sideup())
+    print()
+
+# Call the main function.
+main()
