@@ -8,3 +8,6 @@ class CellPhone:
         self._ _manufact = manufact
         self._ _model = model
         self._ _retail_price = price
+
+    # The set_manufact method accepts an argument for
+    # the phone's manufacturer.
