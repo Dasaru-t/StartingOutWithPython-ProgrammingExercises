@@ -2,12 +2,16 @@
 # The CellPhone class holds data about a cell phone.
 
 class CellPhone:
-    # The _ _init_ _ method initializes the attributes.
-    def _ _init_ _(self, manufact, model, price):
-        self._ _manufact = manufact
-        self._ _model = model
-        self._ _retail_price = price
 
+    # The _ _init_ _ method initializes the attributes.
+
+    def __init__(self, manufact, model, price):
+        self.__manufact = manufact
+        self.__model = model
+        self.__retail_price = price
 
     # The set_manufact method accepts an argument for
     # the phone's manufacturer.
+
+    def set_manufact(self,manufact):
+        self.__manufact = manufact
