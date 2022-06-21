@@ -22,5 +22,6 @@ class CellPhone:
     def set_model(self, model):
         self.__model = model
 
+
     # The set_retail_price method accepts an argument
     # for the phone's retail price.
