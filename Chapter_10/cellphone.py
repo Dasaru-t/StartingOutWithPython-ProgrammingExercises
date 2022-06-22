@@ -25,3 +25,6 @@ class CellPhone:
 
     # The set_retail_price method accepts an argument
     # for the phone's retail price.
+
+    def set_retail_price(self, price):
+        self.__retail_price = price
