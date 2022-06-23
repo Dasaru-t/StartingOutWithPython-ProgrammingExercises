@@ -28,3 +28,5 @@ class CellPhone:
 
     def set_retail_price(self, price):
         self.__retail_price = price
+
+    # The get_manufact method returns the
