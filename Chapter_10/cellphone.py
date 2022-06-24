@@ -32,4 +32,6 @@ class CellPhone:
     # The get_manufact method returns the
     # phone's manufacturer.
 
-    
+    def get_manufact(self):
+        return self.__manufact
+
