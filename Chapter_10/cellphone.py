@@ -30,3 +30,6 @@ class CellPhone:
         self.__retail_price = price
 
     # The get_manufact method returns the
+    # phone's manufacturer.
+
+    
