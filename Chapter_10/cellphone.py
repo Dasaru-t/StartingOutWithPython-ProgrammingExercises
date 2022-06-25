@@ -35,3 +35,6 @@ class CellPhone:
     def get_manufact(self):
         return self.__manufact
 
+    # The get_model method returns the
+    # phone's model number.
+
