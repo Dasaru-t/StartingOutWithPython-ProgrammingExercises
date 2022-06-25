@@ -38,3 +38,11 @@ class CellPhone:
     # The get_model method returns the
     # phone's model number.
 
+    def get_model(self):
+        return self.__model
+
+    # The get_retail_price method returns the
+    # phone's retail price.
+    def get_retail_price(self):
+        return self.__retail_price
+
