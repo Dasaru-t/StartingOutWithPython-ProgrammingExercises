@@ -43,6 +43,7 @@ class CellPhone:
 
     # The get_retail_price method returns the
     # phone's retail price.
+    
     def get_retail_price(self):
         return self.__retail_price
 
