@@ -3,3 +3,4 @@
 
 def main():
     # Get the phone data.
+    man = input('Enter the manufacturer: ')
