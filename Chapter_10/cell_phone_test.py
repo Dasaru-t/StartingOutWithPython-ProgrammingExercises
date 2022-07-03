@@ -4,3 +4,4 @@
 def main():
     # Get the phone data.
     man = input('Enter the manufacturer: ')
+    mod = input('Enter the model number: ')
