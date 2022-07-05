@@ -8,3 +8,4 @@ def main():
     retail = float(input('Enter the retail price: '))
 
     # Create an instance of the CellPhone class.
+    phone = cellphone.CellPhone(man, mod, retail)
