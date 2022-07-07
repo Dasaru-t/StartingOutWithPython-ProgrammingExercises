@@ -11,4 +11,4 @@ def main():
     phone = cellphone.CellPhone(man, mod, retail)
 
     # Display the data that was entered.
-    
+    print('Here is the data that you entered:')
