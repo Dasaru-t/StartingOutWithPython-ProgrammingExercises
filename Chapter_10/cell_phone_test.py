@@ -9,3 +9,6 @@ def main():
 
     # Create an instance of the CellPhone class.
     phone = cellphone.CellPhone(man, mod, retail)
+
+    # Display the data that was entered.
+    
