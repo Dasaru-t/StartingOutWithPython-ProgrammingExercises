@@ -12,3 +12,4 @@ def main():
 
     # Display the data that was entered.
     print('Here is the data that you entered:')
+    print('Manufacturer:', phone.get_manufact())
