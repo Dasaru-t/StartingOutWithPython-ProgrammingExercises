@@ -11,6 +11,5 @@ def main():
     phone = cellphone.CellPhone(man, mod, retail)
 
     # Display the data that was entered.
-    print('Here is the data that you entered:')
-    
+    print('Here is the data that you entered:')    
     print('Manufacturer:', phone.get_manufact())
