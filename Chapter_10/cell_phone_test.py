@@ -16,6 +16,5 @@ def main():
     print('Model Number:', phone.get_model())
     print('Retail Price: $', format(phone.get_retail_price(), ',.2f'), sep='')
 
-
 # Call the main function.
 main()
