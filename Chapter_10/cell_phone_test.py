@@ -1,6 +1,8 @@
 # cell_phone_test.py
 # This program tests the CellPhone class.
 
+import cellphone
+
 def main():
     # Get the phone data.
     man = input('Enter the manufacturer: ')
