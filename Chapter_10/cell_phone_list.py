@@ -6,3 +6,6 @@ import cellphone
 def main():
     # Get a list of CellPhone objects.
     phones = make_list()
+
+    # Display the data in the list.
+
