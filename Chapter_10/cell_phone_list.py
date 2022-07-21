@@ -8,4 +8,6 @@ def main():
     phones = make_list()
 
     # Display the data in the list.
+    print('Here is the data you entered:')
+    display_list(phones)
 
