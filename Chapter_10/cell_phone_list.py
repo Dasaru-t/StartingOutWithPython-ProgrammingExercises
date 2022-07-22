@@ -11,3 +11,8 @@ def main():
     print('Here is the data you entered:')
     display_list(phones)
 
+# The make_list function gets data from the user
+# for five phones. The function returns a list
+# of CellPhone objects containing the data.
+
+
