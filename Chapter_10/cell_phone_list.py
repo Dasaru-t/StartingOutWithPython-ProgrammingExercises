@@ -19,4 +19,14 @@ def make_list():
     # Create a empty list.
     phone_list = []
 
+    # Add five CellPhone objects to the list.
+    print('Enter data for five phones.')
+    for count in range(1, 6):
+        # Get the phone data.
+        print('Phone number ' + str(count) + ": ")
+        man = input('Enter the manufacturer: ')
+        mod = input('Enter the model number: ')
+        retail = float(input('Enter the retail price: '))
+        print()
+
 
