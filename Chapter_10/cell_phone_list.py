@@ -13,6 +13,10 @@ def main():
 
 # The make_list function gets data from the user
 # for five phones. The function returns a list
-# of CellPhone objects containing the data.
+# of CellPhone objects containing the data. 
+
+def make_list():
+    # Create a empty list.
+    phone_list = []
 
 
