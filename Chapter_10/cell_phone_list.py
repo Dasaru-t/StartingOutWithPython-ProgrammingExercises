@@ -29,4 +29,8 @@ def make_list():
         retail = float(input('Enter the retail price: '))
         print()
 
+        # Create a new CellPhone object in memory and
+        # assign it to the phone variable.
+        phone = cellphone.CellPhone(man, mod, retail)
+
 
