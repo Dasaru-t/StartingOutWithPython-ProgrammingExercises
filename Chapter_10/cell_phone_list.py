@@ -33,4 +33,7 @@ def make_list():
         # assign it to the phone variable.
         phone = cellphone.CellPhone(man, mod, retail)
 
+        # Add the object to the list.
+        phone_list.append(phone)
+
 
