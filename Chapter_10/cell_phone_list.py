@@ -36,4 +36,7 @@ def make_list():
         # Add the object to the list.
         phone_list.append(phone)
 
+    # Return the list.
+    return phone_list
+
 
