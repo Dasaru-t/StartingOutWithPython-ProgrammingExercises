@@ -39,4 +39,8 @@ def make_list():
     # Return the list.
     return phone_list
 
+    # The display_list function accepts a list containing
+    # CellPhone objects as an argument and displays the
+    # data stored in each object.
+
 
