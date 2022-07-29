@@ -43,4 +43,6 @@ def make_list():
     # CellPhone objects as an argument and displays the
     # data stored in each object.
 
+    def display_list(phone_list):
+
 
