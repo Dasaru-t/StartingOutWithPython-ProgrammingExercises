@@ -44,5 +44,10 @@ def make_list():
     # data stored in each object.
 
     def display_list(phone_list):
+        for item in phone_list:
+            print(item.get_manufact())
+            print(item.get_model())
+            print(item.get_retail_price())
+            print()
 
 
