@@ -50,4 +50,7 @@ def make_list():
             print(item.get_retail_price())
             print()
 
+    # Call the main function.
+    main()
+
 
