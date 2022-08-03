@@ -5,3 +5,7 @@ import coin
 # main function
 def main():
     # Create a Coin object.
+    my_coin = coin.Coin()
+
+    # This will display 'Heads'.
+    print(my_coin.get_sideup())
