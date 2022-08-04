@@ -9,3 +9,8 @@ def main():
 
     # This will display 'Heads'.
     print(my_coin.get_sideup())
+
+    # Pass the object to the flip function.
+    flip(my_coin)
+
+    # This might display 'Heads', or it might
