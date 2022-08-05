@@ -14,3 +14,6 @@ def main():
     flip(my_coin)
 
     # This might display 'Heads', or it might
+    # display 'Tails'.
+    print(my_coin.get_sideup())
+
