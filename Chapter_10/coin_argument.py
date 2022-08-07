@@ -17,3 +17,7 @@ def main():
     # display 'Tails'.
     print(my_coin.get_sideup())
 
+# The flip function flips a coin.
+def flip(coin_obj):
+    coin_obj.toss()
+
