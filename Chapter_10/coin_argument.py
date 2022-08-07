@@ -21,3 +21,6 @@ def main():
 def flip(coin_obj):
     coin_obj.toss()
 
+# Call the main function.
+main()
+
