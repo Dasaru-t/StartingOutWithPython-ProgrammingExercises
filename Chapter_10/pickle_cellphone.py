@@ -4,3 +4,7 @@ import cellphone
 
 # Constant for the filename.
 FILENAME = 'cellphones.dat'
+
+def main():
+    # Initialize a variable to control the loop.
+    again = 'y'
