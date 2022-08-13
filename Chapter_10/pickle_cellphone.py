@@ -11,3 +11,8 @@ def main():
 
     # Open a file.
     output_file = open(FILENAME, 'wb')
+
+    # Get data from the user.
+    while again.lower() == 'y':
+        # Get cell phone data.
+
