@@ -15,4 +15,8 @@ def main():
     # Get data from the user.
     while again.lower() == 'y':
         # Get cell phone data.
+        man = input('Enter the manufacturer: ')
+        mod = input('Enter the model number: ')
+        retail = float(input('Enter the retail price: '))
+
 
