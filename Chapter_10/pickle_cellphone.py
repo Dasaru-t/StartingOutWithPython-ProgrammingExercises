@@ -19,4 +19,10 @@ def main():
         mod = input('Enter the model number: ')
         retail = float(input('Enter the retail price: '))
 
+        # Create a CellPhone object.
+        phone = cellphone.CellPhone(man, mod, retail)
+
+
+
+
 
