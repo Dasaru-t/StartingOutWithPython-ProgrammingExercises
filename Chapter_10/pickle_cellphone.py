@@ -22,6 +22,12 @@ def main():
         # Create a CellPhone object.
         phone = cellphone.CellPhone(man, mod, retail)
 
+        # Pickle the object and write it to the file.
+        pickle.dump(phone, output_file)
+
+        # Get more cell phone data?
+        again = input('Enter more phone data? (y/n): ')
+
 
 
 
