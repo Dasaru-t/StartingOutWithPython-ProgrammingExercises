@@ -28,6 +28,10 @@ def main():
         # Get more cell phone data?
         again = input('Enter more phone data? (y/n): ')
 
+        # Close the file.
+        output_file.close()
+        print('The data was written to', FILENAME)
+
 
 
 
