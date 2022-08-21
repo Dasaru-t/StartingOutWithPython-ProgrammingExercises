@@ -32,6 +32,8 @@ def main():
         output_file.close()
         print('The data was written to', FILENAME)
 
+# Call the main function.
+main()
 
 
 
