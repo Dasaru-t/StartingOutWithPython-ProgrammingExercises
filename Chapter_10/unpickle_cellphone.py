@@ -6,4 +6,7 @@ import cellphone
 FILENAME = 'cellphones.dat'
 
 def main():
-    
+    end_of_file = False # To indicate end of file
+
+    # Open the file.
+    input_file = open(FILENAME, 'rb')
