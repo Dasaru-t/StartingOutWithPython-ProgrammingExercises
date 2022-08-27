@@ -10,3 +10,9 @@ def main():
 
     # Open the file.
     input_file = open(FILENAME, 'rb')
+
+    # Read to the end of the file.
+    while not end_of_file:
+        try:
+            # Unpickle the next object.
+            phone = pickle.load(input_file)
