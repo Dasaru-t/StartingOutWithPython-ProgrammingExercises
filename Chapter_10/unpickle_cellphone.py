@@ -16,3 +16,10 @@ def main():
         try:
             # Unpickle the next object.
             phone = pickle.load(input_file)
+
+            # Display the cell phone data.
+            display_data(phone)
+        except EOFError:
+            # Set the flag to indicate the end
+            # of the file has been reached.
+            end_of_file = True
