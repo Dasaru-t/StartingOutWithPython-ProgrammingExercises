@@ -23,3 +23,5 @@ def main():
             # Set the flag to indicate the end
             # of the file has been reached.
             end_of_file = True
+    # Close the file.
+    input_file.close()
